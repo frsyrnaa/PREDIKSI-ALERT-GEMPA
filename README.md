@@ -1,2 +1,7 @@
-# Machine-Learning
-Anything abt ML
+# PREDIKSI ALERT GEMPA DENGAN TIGA MODEL MACHINE LEARNING
+
+Proyek ini merupakan pengembangan sistem klasifikasi untuk memprediksi tingkat peringatan gempa (earthquake alert) menggunakan pendekatan machine learning. Model dibangun dengan memanfaatkan dataset parameter gempa seperti magnitude, depth, cdi, mmi, dan sig yang kemudian diproses melalui tahapan preprocessing, normalisasi data, serta pembagian dataset menjadi data latih dan data uji. Pada penelitian ini digunakan tiga algoritma machine learning yaitu Artificial Neural Network (ANN), Random Forest, dan Support Vector Machine (SVM) untuk membandingkan performa model dalam mengklasifikasikan tingkat bahaya gempa ke dalam beberapa kategori peringatan seperti green, yellow, orange, dan red.
+
+Hasil pengujian menunjukkan bahwa model mampu mempelajari pola hubungan antara parameter gempa dan tingkat bahaya dengan cukup baik. Evaluasi dilakukan menggunakan confusion matrix, classification report, serta analisis feature importance untuk mengetahui kontribusi masing-masing fitur terhadap prediksi model. Berdasarkan hasil eksperimen, model Random Forest menunjukkan performa yang sangat baik dengan tingkat akurasi sekitar 91%, serta mampu memberikan interpretasi yang jelas terhadap faktor-faktor yang paling berpengaruh dalam menentukan level peringatan gempa.
+
+Proyek ini menunjukkan bahwa pendekatan machine learning dapat dimanfaatkan untuk membantu analisis risiko bencana secara lebih cepat dan berbasis data, sehingga berpotensi mendukung sistem peringatan dini gempa di masa depan.
